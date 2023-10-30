@@ -27,48 +27,44 @@
       box-sizing: border-box;
     }
 
-
     body {
       font-family: "Inter", sans-serif;
       color: #343a40;
       line-height: 1;
     }
 
+    .pagination {
+      margin: 200px auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .btn {
+      border: none;
+      cursor: pointer;
+      background-color: #fff;
+      border: 2px solid #087f5b;
+      height: 54px;
+      width: 54px;
+      border-radius: 50%;
+
+      /* to center the icons */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .btn:link,
     .btn:visited {
       background-color: #fff;
-      color: #343a40;
-      text-decoration: none;
-      font-weight: 500;
     }
 
     .btn:hover,
     .btn:active {
       background-color: #087f5b;
-      color: #fff;
-    }
-
-    .btn {
-      cursor: pointer;
-    }
-
-    a {
-      font-size: 20px;
-
-    }
-
-    .btn--left-right {
-      background-color: #fff;
-      border: 2px solid #087f5b;
-      height: 44px;
-      width: 44px;
-      border-radius: 50%;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      display: inline-block;
     }
 
     .btn-icon {
@@ -80,34 +76,74 @@
     .btn-icon:hover {
       stroke: #fff;
     }
+
+    a {
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      height: 40px;
+      width: 40px;
+
+      /* to center numbers */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn--page:link,
+    .btn--page:visited {
+      background-color: #fff;
+      color: #343a40;
+    }
+
+    .btn--page:hover,
+    .btn--page:active {
+      background-color: #087f5b;
+      color: #fff;
+      border-radius: 50%;
+    }
+
+    .btn--fill {
+      background-color: #087f5b;
+      color: #fff;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+
+    .dots {
+      font-size: 20px;
+      color: #343a40;
+      font-weight: 500;
+    }
   </style>
 </head>
 
 <body>
-  <button class="btn btn--left-right">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-      class="btn-icon">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-    </svg>
-  </button>
+  <div class="pagination">
+    <button class="btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="btn-icon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </button>
 
-  <!-- <div class="btn--page"> -->
-  <a class="btn btn--page" href="#">1</a>
-  <a class="btn btn--page" href="#">2</a>
-  <a class="btn btn--page" href="#">3</a>
-  <a class="btn btn--page" href="#">4</a>
-  <a class="btn btn--page" href="#">5</a>
-  <a class="btn btn--page" href="#">6</a>
-  <span class="dots">...</span>
-  <a class="btn btn--page" href="#">23</a>
-  <!-- </div> -->
+    <a class="btn--page" href="#">1</a>
+    <a class="btn--page" href="#">2</a>
+    <a class="btn--fill" href="#">3</a>
+    <a class="btn--page" href="#">4</a>
+    <a class="btn--page" href="#">5</a>
+    <a class="btn--page" href="#">6</a>
+    <span class="dots">...</span>
+    <a class="btn--page" href="#">23</a>
 
-  <button class="btn btn--left-right">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-      class="btn-icon">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-    </svg>
-  </button>
+    <button class="btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="btn-icon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </button>
+  </div>
 </body>
 
 
