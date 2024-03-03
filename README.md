@@ -1,0 +1,32 @@
+# Components
+
+Completed tasks: https://agne-jazdauskiene.github.io/VCS_JavaScript-Fullstack/
+
+  <h1>Components</h1>
+    <h4>Accordion</h4>
+    <ul>
+      <li><a href="01-accordion.html" target="_blank">Accordion</a></li>
+    </ul>
+    <h4>Carousel</h4>
+    <ul>
+      <li>
+        <a href="02-carousel.html" target="blank">Carousel</a>
+      </li>
+    </ul>
+    <h4>Table</h4>
+    <ul>
+      <li><a href="03-table.html" target="_blank">Table</a></li>
+    </ul>
+    <h4>Pagination</h4>
+    <ul>
+      <li><a href="04-pagination-challange.html" target="_blank">Pagination</a></li>
+    </ul>
+    <h4>Hero section</h4>
+    <ul>
+      <li><a href="05-hero.html" target="_blank">Hero Section</a>
+      </li>
+    </ul>
+    <h4>App Layout</h4>
+    <ul>
+      <li><a href="06-app-layout.html" target="_blank">App Layout</a></li>
+    </ul>
