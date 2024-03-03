@@ -1,6 +1,6 @@
 # Components
 
-Completed tasks: https://agne-jazdauskiene.github.io/VCS_JavaScript-Fullstack/
+Components: https://agne-jazdauskiene.github.io/06-Components/
 
   <h1>Components</h1>
     <h4>Accordion</h4>
