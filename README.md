@@ -2,9 +2,7 @@
 
 Components: https://agne-jazdauskiene.github.io/06-Components/
 
-  <!-- <h1>Components</h1> -->
-
-    <h4>Accordion</h4>
+  <h4>Accordion</h4>
     <ul>
       <li><a href="01-accordion.html" target="_blank">Accordion</a></li>
     </ul>
